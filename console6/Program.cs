@@ -80,10 +80,11 @@ namespace console6
                             break;
 
                         case 5:
-                            PedidoServico.Cadastro(pedidos,clientes,produtos);
+                            PedidoServico.Cadastro(pedidos, clientes, produtos);
                             break;
 
                         case 6:
+                            PedidoServico.Relatorio(pedidos);
                             break;
 
                         default:

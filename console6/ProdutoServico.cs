@@ -10,7 +10,7 @@ namespace console6
             var produto = new Produto();
 
             Console.WriteLine("Digite o código do Produto: ");
-            produto.Codigo = Console.ReadLine();
+            produto.Codigo = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Digite o nome do produto: ");
             produto.Nome = Console.ReadLine();
             Console.WriteLine("Digite a descrição do produto: ");

@@ -10,7 +10,7 @@ namespace console6
         {
             var cliente = new Cliente();
             Console.WriteLine("Digite o código do cliente: ");
-            cliente.Codigo = (Console.ReadLine());
+            cliente.Codigo = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Digite o nome do cliente: ");
             cliente.Nome = Console.ReadLine();
             Console.WriteLine("Digite o telefone do cliente: ");

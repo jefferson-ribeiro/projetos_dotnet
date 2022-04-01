@@ -1,0 +1,32 @@
+<br>
+<h1>Cadastrar Conta</h1>
+<hr>
+<form action="/cadastrarconta" method="post">
+  <label for="agencia">Agência</label><br>
+  <input type="text" id="agencia" name="agencia" required="required"><br>
+
+  <label for="tipo">Tipo</label><br>
+  <select id="tipo" name="tipo" required="required">
+    <option value="0">Conta corrente</option>
+    <option value="1">Conta poupança</option>
+    <option value="2">Conta investimento</option>
+  </select><br>
+
+  <label for="saldo">Saldo</label><br>
+  <input type="double" id="saldo" name="saldo" required="required"><br>
+
+  <label for="clienteID">Cliente ID</label><br>
+
+  <select id="clienteID" name="clienteID" required="required">
+    @foreach (Cliente cliente in ViewBag.Clientes)
+    {
+      <option value="@cliente.Id">@cliente.Nome</option>
+    }
+  </select>
+  <br><br>
+
+  <input type="submit" value="Enviar">
+</form>
+<br>
+<hr>
+<a href="/">Voltar</a>

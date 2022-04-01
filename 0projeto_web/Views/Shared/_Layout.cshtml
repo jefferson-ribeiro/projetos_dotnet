@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Meu Projeto Treino</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Bootstrap Static Header -->
+        <div style="background: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg)"
+            class="jumbotron bg-cover text-white">
+            <div class="container py-5 text-center">
+                <h1 class="display-4 font-weight-bold">Programa Online de Cadastro</h1>
+                <p class="font-italic mb-0">Programa criado para cadastro e controle de clientes</p>
+                <p class="font-italic">&copy; Jefferson Augusto Ribeiro - Programador</p>
+            </div>
+        </div>
+    </header>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+
+    <footer class="border-top footer text-muted">
+        <h3>&copy; Jefferson Augusto Ribeiro - Programador</h3>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

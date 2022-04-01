@@ -1,0 +1,16 @@
+D:\C#_dotnet\projetos_dotnet\console3\bin\Debug\net5.0\console3.exe
+D:\C#_dotnet\projetos_dotnet\console3\bin\Debug\net5.0\console3.deps.json
+D:\C#_dotnet\projetos_dotnet\console3\bin\Debug\net5.0\console3.runtimeconfig.json
+D:\C#_dotnet\projetos_dotnet\console3\bin\Debug\net5.0\console3.runtimeconfig.dev.json
+D:\C#_dotnet\projetos_dotnet\console3\bin\Debug\net5.0\console3.dll
+D:\C#_dotnet\projetos_dotnet\console3\bin\Debug\net5.0\ref\console3.dll
+D:\C#_dotnet\projetos_dotnet\console3\bin\Debug\net5.0\console3.pdb
+D:\C#_dotnet\projetos_dotnet\console3\obj\Debug\net5.0\console3.csproj.AssemblyReference.cache
+D:\C#_dotnet\projetos_dotnet\console3\obj\Debug\net5.0\console3.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_dotnet\projetos_dotnet\console3\obj\Debug\net5.0\console3.AssemblyInfoInputs.cache
+D:\C#_dotnet\projetos_dotnet\console3\obj\Debug\net5.0\console3.AssemblyInfo.cs
+D:\C#_dotnet\projetos_dotnet\console3\obj\Debug\net5.0\console3.csproj.CoreCompileInputs.cache
+D:\C#_dotnet\projetos_dotnet\console3\obj\Debug\net5.0\console3.dll
+D:\C#_dotnet\projetos_dotnet\console3\obj\Debug\net5.0\ref\console3.dll
+D:\C#_dotnet\projetos_dotnet\console3\obj\Debug\net5.0\console3.pdb
+D:\C#_dotnet\projetos_dotnet\console3\obj\Debug\net5.0\console3.genruntimeconfig.cache
